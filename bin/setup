@@ -1,8 +1,10 @@
-#!/usr/bin/env bash
-set -euo pipefail
-IFS=$'\n\t'
-set -vx
+#!/usr/bin/env ruby
+# frozen_string_literal: true
 
-bundle install
+require 'bundler/setup'
+require 'app_store_connect_api'
+require 'rake'
 
-# Do any other automated setup that you need to do here
+load './lib/tasks/console.rake'
+
+Rake::Task['console'].execute
