@@ -1498,7 +1498,7 @@
     {
       "http_method": "patch",
       "url": "https://api.appstoreconnect.apple.com/v1/builds/{id}",
-      "http_body_type": "BuildUpdateRequest",
+      "http_body_type": "Requests::V1::BuildUpdateRequest::Update",
       "alias": "update_build"
     },
     {
