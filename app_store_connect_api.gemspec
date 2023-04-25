@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.name = "app_store_connect_api"
   spec.version = AppStoreConnectApi::VERSION
   spec.authors = ["wade"]
-  spec.email = ["wade@example.com"]
+  spec.email = ["weishqdev@gmail.com"]
 
   spec.summary = "easy work for app_store_connect work"
   spec.description = "easy work for app_store_connect"
